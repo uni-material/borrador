@@ -9,4 +9,5 @@ export class ThresholdService{
     getById(id) {
         return httpInstance.get(`${this.resourceEndpoint}/${id}`);
     }
+
 }

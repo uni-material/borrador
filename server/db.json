@@ -1,0 +1,138 @@
+{
+  "thresholds": [
+    {
+      "id": 1,
+      "fuelTankType": "Type A",
+      "minAverage": 10,
+      "maxAverage": 15
+    },
+    {
+      "id": 2,
+      "fuelTankType": "Type B",
+      "minAverage": 8,
+      "maxAverage": 12
+    },
+    {
+      "id": 3,
+      "fuelTankType": "Type C",
+      "minAverage": 6,
+      "maxAverage": 10
+    },
+    {
+      "id": 4,
+      "fuelTankType": "Type D",
+      "minAverage": 5,
+      "maxAverage": 8
+    }
+  ],
+  "efficiency-records": [
+    {
+      "id": 1,
+      "busId": 101,
+      "fuelTankType": "Type A",
+      "averageKmPerGallon": 12,
+      "calculatedAt": "2025-05-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "busId": 102,
+      "fuelTankType": "Type B",
+      "averageKmPerGallon": 7,
+      "calculatedAt": "2025-05-01T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "busId": 103,
+      "fuelTankType": "Type C",
+      "averageKmPerGallon": 11,
+      "calculatedAt": "2025-05-02T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "busId": 104,
+      "fuelTankType": "Type D",
+      "averageKmPerGallon": 6,
+      "calculatedAt": "2025-05-02T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "busId": 105,
+      "fuelTankType": "Type A",
+      "averageKmPerGallon": 9,
+      "calculatedAt": "2025-05-03T12:00:00Z"
+    },
+    {
+      "id": 6,
+      "busId": 106,
+      "fuelTankType": "Type B",
+      "averageKmPerGallon": 13,
+      "calculatedAt": "2025-05-03T13:00:00Z"
+    },
+    {
+      "id": 7,
+      "busId": 107,
+      "fuelTankType": "Type C",
+      "averageKmPerGallon": 8,
+      "calculatedAt": "2025-05-04T14:00:00Z"
+    },
+    {
+      "id": 8,
+      "busId": 108,
+      "fuelTankType": "Type D",
+      "averageKmPerGallon": 4,
+      "calculatedAt": "2025-05-04T15:00:00Z"
+    },
+    {
+      "id": 9,
+      "busId": 109,
+      "fuelTankType": "Type A",
+      "averageKmPerGallon": 16,
+      "calculatedAt": "2025-05-05T16:00:00Z"
+    },
+    {
+      "id": 10,
+      "busId": 110,
+      "fuelTankType": "Type B",
+      "averageKmPerGallon": 10,
+      "calculatedAt": "2025-05-05T17:00:00Z"
+    }
+  ],
+  "issues": [
+    {
+      "id": 1,
+      "busId": 102,
+      "issueType": "Fuel Efficiency",
+      "registeredAt": "2025-05-01T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "busId": 103,
+      "issueType": "Fuel Efficiency",
+      "registeredAt": "2025-05-02T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "busId": 105,
+      "issueType": "Fuel Efficiency",
+      "registeredAt": "2025-05-03T12:00:00Z"
+    },
+    {
+      "id": 4,
+      "busId": 106,
+      "issueType": "Fuel Efficiency",
+      "registeredAt": "2025-05-03T13:00:00Z"
+    },
+    {
+      "id": 5,
+      "busId": 108,
+      "issueType": "Fuel Efficiency",
+      "registeredAt": "2025-05-04T15:00:00Z"
+    },
+    {
+      "id": 6,
+      "busId": 109,
+      "issueType": "Fuel Efficiency",
+      "registeredAt": "2025-05-05T16:00:00Z"
+    }
+  ]
+}
